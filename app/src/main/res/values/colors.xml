@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2015 yvolk (Yuri Volkov), http://yurivolkov.com
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	     http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+ -->
+<resources>
+	<!-- Colors in Material design http://www.google.com/design/spec/style/color.html -->
+	<color name="red_500">#F44336</color>
+	<color name="red_700">#D32F2F</color>
+	<color name="orange_500">#FF9800</color>
+	<color name="orange_700">#F57C00</color>
+	<color name="green_500">#4CAF50</color>
+	<color name="green_700">#388E3C</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_700">#00796B</color>
+	<color name="blue_500">#2196F3</color>
+	<color name="blue_700">#1976D2</color>
+	<color name="light_blue_500">#03A9F4</color>
+	<color name="light_blue_700">#0288D1</color>
+	<color name="material_blue_500">#577AF3</color>
+	<color name="material_blue_700">#485CD4</color>
+	<color name="my_blue_500">#0073be</color>
+	<color name="my_blue_700">#005B97</color>
+	<color name="grey_500">#9E9E9E</color>
+	<color name="grey_700">#616161</color>
+
+    <!-- Background colors http://www.computerhope.com/htmcolor.htm -->
+    <color name="black">#000000</color>
+    <color name="night">#0C090A</color>
+    <color name="midnight">#2B1B17</color>
+    <color name="charcoal">#34282C</color>
+    <color name="black_cat">#413839</color>
+    <color name="grey_wolf">#504A4B</color>
+    <color name="carbon_grey">#625D5D</color>
+
+    <color name="message_background_color">#FF000000</color>
+    <color name="message_background_color_light">#FFFFFFFF</color>
+    <color name="reply_mark_color">#FF47A4EE</color>
+    <color name="reply_mark_color_light">#FF47A4EE</color>
+	<color name="current_message_border">#FF47A4EE</color>
+	<color name="current_message_border_light">#FF47A4EE</color>
+	<color name="link_text_dark">#ff180cac</color>
+	<color name="link_text_light">#ff33b5e5</color>
+</resources>

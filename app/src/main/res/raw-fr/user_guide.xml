@@ -1,0 +1,190 @@
+<?xml-stylesheet version='1.0' type='text/xsl' href='../raw/fb2_2_html.xsl' encoding="utf-8"?>
+<!-- 
+    Copyright (C) 2015 Yuri Volkov, yvolk@yurivolkov.com
+    
+    Translations are copyrighted by corresponding Translators.
+        
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+         http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.gribuser.ru/xml/fictionbook/2.0 ../../../../../res-src/fb2/FictionBook.xsd">
+<description>
+    <title-info>
+        <genre>computers</genre>
+        <author>
+            <first-name>AndStatus project</first-name>
+            <last-name></last-name>
+        </author>
+        <book-title>Guide de l'utilisateur AndStatus</book-title>
+        <lang>fr</lang>
+        <src-lang>en</src-lang>
+        <translator>
+            <nickname>Espace réservé aux crédits de traduction</nickname>
+        </translator>
+    </title-info>
+    <document-info>
+        <author>
+            <nickname>AndStatus project</nickname>
+            <home-page>http://www.andstatus.org</home-page>
+            <email>andstatus@gmail.com</email>
+        </author>
+        <date>2015-08-16</date>
+        <id></id>
+        <version>2</version>
+    </document-info>
+</description>
+<body>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>AndStatus est un client de réseau social Open Source ayant une faible consommation de bande passante et avec des conversations en arborescence.
+         Il prend en charge plusieurs protocoles, y compris GNU social, Twitter et Pump.io.
+         AndStatus combine vos comptes de tous les réseaux dans une seule timeline et vous permet de lire et poster alors même que vous êtes hors connexion.</p>
+    <p>Un lien vers ce guide est disponible dans la barre d'action-&gt;Aide.</p>
+    <p>Le journal des modifications sur la page suivante vous permettra de voir des descriptions et des liens vers les discussions de toutes les fonctionnalités d'AndStatus.</p>
+</section>
+<section>
+    <title>
+        <p>1. Mise en route</p>
+    </title>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p></p>
+    <p></p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p></p>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <section>
+        <title>
+            <p></p>
+        </title>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p></p>
+        <p>
+        </p>
+        <p>
+        </p>
+    </section>
+    <section>
+        <title>
+            <p></p>
+        </title>
+        <p></p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>.</p>
+    </section>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>
+    </p>
+    <p>.
+    </p>
+    <p>
+    </p>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>
+    </p>
+    <p>
+    </p>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p></p>
+    <p>
+    </p>
+    <p>
+    </p>
+</section>
+<section>
+    <title>
+        <p></p>
+    </title>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p></p>
+    <p></p>
+</section>
+</body>
+</FictionBook>

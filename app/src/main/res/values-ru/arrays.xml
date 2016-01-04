@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Copyright (C) 2010-2012 Yuri Volkov, yvolk@yurivolkov.com
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	     http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Note: Test RegEx at http://www.regexplanet.com/simple/index.html
+ -->
+<resources>
+	<string-array name="appwidget_home_formats">
+        <item>@string/appwidget_message_formats_1</item>
+        <item>@string/appwidget_message_formats_2</item>
+		<item>"{0} сообщений"</item>
+	</string-array>
+	<string-array name="appwidget_home_patterns">
+		<item>".*[^1]1|1"</item> <!--  ..except 11 at the end of line... -->
+		<item>".*[^1][234]|2|3|4"</item> <!--  ..except 12,13 and 14 at the end of line... -->
+		<item>".*"</item>
+	</string-array>
+	<string-array name="appwidget_mention_formats">
+        <item>@string/appwidget_mention_formats_1</item>
+        <item>@string/appwidget_mention_formats_2</item>
+		<item>"{0} упоминаний"</item>
+	</string-array>
+	<string-array name="appwidget_mention_patterns">
+		<item>".*[^1]1|1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="notification_home_formats">
+		<item>@string/notification_message_formats_1</item>
+        <item>@string/notification_message_formats_2</item>
+		<item>"{0} сообщений"</item>
+	</string-array>
+	<string-array name="notification_home_patterns">
+		<item>".*[^1]1|1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="notification_mention_formats">
+        <item>@string/notification_mention_formats_1</item>
+        <item>@string/notification_mention_formats_2</item>
+		<item>"{0} упоминаний"</item>
+	</string-array>
+	<string-array name="notification_mention_patterns">
+		<item>".*[^1]1|1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="notification_direct_message_formats">
+        <item>@string/notification_direct_message_formats_1</item>
+        <item>@string/notification_direct_message_formats_2</item>
+		<item>"{0} личных сообщений"</item>
+	</string-array>
+	<string-array name="notification_direct_message_patterns">
+		<item>".*[^1]1|1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="notification_queue_formats">
+        <item>@string/notification_queue_formats_1</item>
+        <item>@string/notification_queue_formats_2</item>
+		<item>"{0} неотправленных сообщений ожидают"</item>
+	</string-array>
+	<string-array name="notification_queue_patterns">
+		<item>".*[^1]1|1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="reltime_days_ago_formats">
+		<item>@string/reltime_days_ago_formats_1</item>
+        <item>@string/reltime_days_ago_formats_2</item>
+		<item>"{0} дня назад"</item>
+		<item>"{0} дней назад"</item>
+	</string-array>
+	<string-array name="reltime_days_ago_patterns">
+		<item>"1"</item>
+		<item>".*[^1]1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="reltime_hours_ago_formats">
+        <item>@string/reltime_hours_ago_formats_1</item>
+        <item>@string/reltime_hours_ago_formats_2</item>
+        <item>@string/reltime_hours_ago_formats_3</item>
+		<item>"{0} часа назад"</item>
+		<item>"{0} часов назад"</item>
+	</string-array>
+	<string-array name="reltime_hours_ago_patterns">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>".*[^1]1"</item>
+		<item>".*[^1][234]|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="reltime_minutes_ago_formats">
+        <item>@string/reltime_minutes_ago_formats_1</item>
+        <item>@string/reltime_minutes_ago_formats_2</item>
+        <item>@string/reltime_minutes_ago_formats_3</item>
+		<item>"{0} минуты назад"</item>
+		<item>"{0} минут назад"</item>
+	</string-array>
+	<string-array name="reltime_minutes_ago_patterns">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>".*[^1]1"</item>
+		<item>".*[^1][234]|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="reltime_months_ago_formats">
+        <item>@string/reltime_months_ago_formats_1</item>
+	    <item>@string/reltime_months_ago_formats_2</item>
+		<item>"{0} месяца назад"</item>
+		<item>"{0} месяцев назад"</item>
+	</string-array>
+	<string-array name="reltime_months_ago_patterns">
+		<item>"1"</item>
+		<item>".*[^1]1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+	<string-array name="reltime_seconds_ago_formats">
+        <item>@string/reltime_seconds_ago_formats_1</item>
+	    <item>@string/reltime_seconds_ago_formats_2</item>
+		<item>"{0} секунды назад"</item>
+		<item>"{0} секунд назад"</item>
+	</string-array>
+	<string-array name="reltime_seconds_ago_patterns">
+		<item>"1"</item>
+		<item>".*[^1]1"</item>
+		<item>".*[^1][234]|2|3|4"</item>
+		<item>".*"</item>
+	</string-array>
+</resources>

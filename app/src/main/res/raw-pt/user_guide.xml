@@ -1,0 +1,216 @@
+<?xml-stylesheet version='1.0' type='text/xsl' href='../raw/fb2_2_html.xsl' encoding="utf-8"?>
+<!-- 
+    Copyright (C) 2015 Yuri Volkov, yvolk@yurivolkov.com
+    
+    Translations are copyrighted by corresponding Translators.
+        
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+         http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.gribuser.ru/xml/fictionbook/2.0 ../../../../../res-src/fb2/FictionBook.xsd">
+<description>
+    <title-info>
+        <genre>computers</genre>
+        <author>
+            <first-name>AndStatus project</first-name>
+            <last-name></last-name>
+        </author>
+        <book-title>Guia de utilizador do AndStatus</book-title>
+        <lang>pt</lang>
+        <src-lang>en</src-lang>
+        <translator>
+            <nickname>Sérgio Marques</nickname>
+        </translator>
+    </title-info>
+    <document-info>
+        <author>
+            <nickname>AndStatus project</nickname>
+            <home-page>http://www.andstatus.org</home-page>
+            <email>andstatus@gmail.com</email>
+        </author>
+        <date>2015-08-16</date>
+        <id></id>
+        <version>2</version>
+    </document-info>
+</description>
+<body>
+<section>
+    <title>
+        <p>Introdução</p>
+    </title>
+    <p>O AndStatus é uma aplicação Open Source para redes sociais e que
+        utiliza o estilo em árvore para as conversas.
+        Tem suporte a diversos protocolos, incluindo GNU Social, Twitter  e  Pump.io. 
+        O AndStatus combina as contas de todas as redes numa cronologia e
+        permite-lhe a leitura e publicação de itens mesmo se estiver 'offline'.</p>
+    <p>A ligação para este guia está disponível na barra de ação -> Ajuda.</p>
+    <p>A página seguinte permite-lhe ver a descrição e as ligações para
+        todas as funcionalidades do AndStatus.</p>
+</section>
+<section>
+    <title>
+        <p>1. Iniciação</p>
+    </title>
+    <p>Toque no botão "Iniciar" para abrir um ecrã no qual poderá adicionar uma nova conta.
+    </p>
+    <p>Primeiro, será solicitada a inserção de uma conta de rede social da lista.
+As contas Twitter, Pump.io e diversas "GNU social" (Quitter, LoadAverage e Vinilox) estão pré-configuradas.
+    </p>
+    <p>Se a sua rede ("GNU social") não estiver na lista, clique no item de menu "Descobrir instâncias abertas" para escolher um sistema de uma lista online, desenvolvida pela comunidade GNU social ou "Adicione um novo sistema" manualmente antes de adicionar uma nova conta.</p>
+    <p>Para as contas Twitter, está disponível a opção "Adicionar esta conta". Para os outros sistemas, será solicitado o seu nome de utilizador e palavra-passe antes de aparecer a opção "Adicionar esta conta".</p>
+    <p>Após criar uma conta com sucesso, toque na seta para  a esquerda na barra de ação ou no botão "Back" do seu dispositivo. Aparecerá a sua cronologia e as mensagens das suas contas serão transferidas automaticamente.
+    </p>
+    <p>Muito bem! Leia abaixo para saber o que mais pode fazer.
+    </p>
+    <p>E não se esqueça de colocar o widget do AndStatus no ecrã do seu dispositivo. Através do widget, será informado sobre a existência de novas mensagens e pode também ser utilizado para abrir a aplicação.
+    </p>
+</section>
+<section>
+    <title>
+        <p>2. Informações básicas</p>
+    </title>
+    <p>A primeira vista do AndStatus (após a criação de uma conta), contém a sua cronologia.
+    </p>
+    <p>Para efetuar qualquer ação numa mensagem da lista, deve <strong>pressionar longamente</strong> a mensagem para abrir o menu de contexto.
+    </p>
+    <p>Pode <strong>clicar</strong> na mensagem para obter os detalhes e para ver a árvore de conversas a que a mensagem pertence.
+    </p>
+    <p>Abra a gaveta de navegação e toque no item ("Home") da sua cronologia para trocar entre visualizações.
+    </p>
+</section>
+<section>
+    <title>
+        <p>3. Enviar e responder</p>
+    </title>
+    <p>1. Para poder atualizar o seu estado, toque no botão "Publicar" ("Tweet" para Twitter).
+        É parecido com um "Envelope+".
+        O editor de mensagens será aberto na margem inferior do ecrã.
+    </p>
+    <p>2. Digite a sua mensagem na área de texto.
+    </p>
+    <p>3. Opcionalmente, pode anexar uma mensagem à publicação. Agora, uma vez que
+        o editor de mensagens está visível, aparece outro botão na barra de ações: "Paperclip+".
+        (O item de menu "Anexar" pode estar oculto por baixo do botão "Overflow": "3 pontos verticais").
+        Toque no botão "Anexar" e selecione uma imagem. Depois de anexar a sua image, verá o texto
+        "(com multimédia)" por cima da área de texto em que está a escrever a sua mensagem.
+    </p>
+    <p>4. Toque <strong>Enviar</strong> para enviar a sua mensagem. Se estiver 'offline', a mensagem será
+        colocada na fila para ser enviada mais tarde. (Utilize o item de menu "Comandos na fila"
+        para ver as mensagens que ainda estão na fila para serem enviadas)
+    </p>
+    <p>Para poder responder a uma mensagem, <strong>prima</strong>
+        na mensagem, selecione  <strong>Responder</strong>
+        no menu de contexto e escreva a sua resposta.
+    </p>
+    <p>Para cancelar uma publicação ou resposta, basta tocar no botão "Ocultar"
+       para ocultar a área de texto.</p>
+</section>
+<section>
+    <title>
+        <p>4. Imagens anexadas: enviar e mostrar</p>
+    </title>
+    <section>
+        <title>
+            <p>4.1. Enviar imagens</p>
+        </title>
+        <p>Um dos métodos para anexar uma imagem a uma publicação está descrito na secção anterior:
+            anexe uma imagem à mensagem, durante a sua criação.
+        </p>
+        <p>Outro método para enviar uma imagem é a opção "Partilhar" através do AndStatus: aqui utiliza
+            uma imagem a partir de outra aplicação. Por exemplo, você quer tirar uma foto e enviá-la
+            para uma rede social. Siga estes passos:
+        </p>
+        <p>1. Tire a foto, localize-a na galeria e clique na miniatura da imagem para a abrir.
+        </p>
+        <p>2. Selecione a opção de menu "Partilhar". A maioria das aplicações possuem a opção "Share"...
+        </p>
+        <p>3. Selecione o AndStatus na lista de aplicações, que declararam a opção
+            de partilha de imagens.
+        </p>
+        <p>4. Agora, está no AndStatus. Se possuir mais do que uma conta,
+            selecione a conta desejada. Se não o fizer, será aberta uma nova janela
+            do editor de mensagens.</p>
+        <p>5. Agora está no editor de mensagens, com a imagem já anexada
+            (e deve ver o texto "(com multimédia)" por cima da área de texto).
+        </p>
+        <p>6. Digite o texto e toque em "Enviar". (Não pode apenas enviar a imagem, tem que escrever um texto)
+        </p>
+    </section>
+    <section>
+        <title>
+            <p>4.2 Mostrar imagens anexadas</p>
+        </title>
+        <p>Em Definições -> Anexos, existem estas opções:</p>
+        <p>1. "Transferir e mostrar imagens anexadas". Se inativa, os anexos não são 
+            transferidos para poupar tráfego de rede.
+        </p>
+        <p>Tenha em atenção que se a opção estiver ativa, as imagens não são mostradas imediatamente,
+            uma vez que o AndStatus necessita de algum tempo para as transferir.
+        </p>
+        <p>2. "Anexar imagens às mensagens". Se ativa, pode utilizar o botão "Paperclip+"
+            (item de menu "Anexar") para anexar imagens às suas mensagens.
+            Se inativa, o botão "Paperclip+", utilizado para anexar as imagens estará oculto.
+        </p>
+        <p>Consulte <a xlink:href="https://github.com/andstatus/andstatus/issues/288">aqui mais informações</a>.</p>
+    </section>
+</section>
+<section>
+    <title>
+        <p>5. Mensagens diretas (privadas)</p>
+    </title>
+    <p>Abra a gaveta de navegação, toque no item ("Home") da sua cronologia e selecione <strong>Mensagem direta</strong> na lista.
+    </p>
+    <p>Para <strong>eliminar</strong> a sua mensagem (pública ou privada), <strong>pressione longamente</strong> a mensagem e selecione <strong>Remover mensagem</strong>.
+    </p>
+    <p>As novas mensagens serão obtidas automaticamente em segundo plano se ativar a opção <strong>Sincronização automática</strong> das contas AndStatus nas definições "Contas e sincronização" do Android. Se quiser receber as mensagens através da opção manual, utilize o botão "Recarregar" na barra de ação.
+    </p>
+</section>
+<section>
+    <title>
+        <p>6. Menções</p>
+    </title>
+    <p>Toque num item da cronologia através da gaveta de navegação e selecione <strong>Menções</strong>
+    </p>
+    <p>As menções irão listar todas as mensagens em que se mencione o seu <strong>@username</strong> (ou até as menções de todas as suas contas AndStatus numa cronologia combinada).
+    </p>
+</section>
+<section>
+    <title>
+        <p>7. Procura (procura local)</p>
+    </title>
+    <p>A procura local pesquisa as mensagens que já tenham sido descarregadas. Nestes termos, também está disponível localmente.
+    </p>
+    <p>1. Para poder localizar uma palavra ou frase no texto de uma mensagem, selecione <strong>Procurar</strong> na barra de ações ou clique no botão de <strong>Procura</strong> do seu dispositivo, se existente.
+    </p>
+    <p>Se quiser mostrar as mensagens de dum dado utilizador, procure pelo "nome de utilizador".</p>
+    <p>Para ver as menções de uma dado utilizador, procure por "@username".
+    </p>
+    <p>2. Para procurar rapidamente as mensagens de um utilizador (autor ou remetente se uma mensagem selecionada), selecione "Mensagens por nome de utilizador" no menu de contexto da mensagem. Este método é similar ao método de procura global (veja abaixo).
+    </p>
+</section>
+<section>
+    <title>
+        <p>8. Procura global</p>
+    </title>
+    <p>A procura global envia um pedido de procura diretamente aos servidores da rede social. Assim, é necessária uma ligação à Internet.
+    </p>
+    <p>Primeiro, serão exibidos os resultados da procura local. Simultaneamente, o AndStatus transfere os resultados da rede social da conta selecionada (ou de todas as redes sociais, caso utilize uma cronologia combinada). Os resultados da procura serão atualizados À medida que forem recebidas as respostas dos servidores. Se ocorrer um erro na ligação (por exemplo, o servidor da rede social não responde), apenas serã omostrados os resultados da procura local.
+    </p>
+    <p>Tenha em atenção que o sistema pump.io ainda não tem suporte à procura global.
+    </p>
+    <p>1. A procura global de palavras ou frases inicia-se através do item "Procura global", existente na barra de ações.</p>
+    <p>2. Outra forma de efetuar um procura global de mensagens, por autor ou remetente, é selecionar "Mensagens por nome de utilizador, existente no menu de contexto de qualquer mensagem.</p>
+</section>
+</body>
+</FictionBook>

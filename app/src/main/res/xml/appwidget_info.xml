@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is resource, describing "receiver" called "AndStatusAppWidgetProvider"
+	It has reference to the layout of the actual AppWidget
+	(shown on the Homepage...) and to the configuration activity
+-->
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="110dip"
+    android:minHeight="40dip"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/appwidget"
+	android:resizeMode="horizontal|vertical"
+    >
+</appwidget-provider>
+
+<!--
+	2010-03-26 yvolk (Temporarily?) got rid of the Configuration activity:
+    android:configure="org.andstatus.app.appwidget.MyAppWidgetConfigure"
+	 
+	updatePeriodMillis
+	  was =86400000 is the value of AlarmManager.INTERVAL_DAY - or once per day.
+	  We've set =0 here so we'll perform updates based on an alarm
+	  that will not wake the device 
+-->
+
